@@ -3,7 +3,6 @@
 [![totalDownloads](https://img.shields.io/npm/dt/fc_invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
 [![weeklyDownloads](https://img.shields.io/npm/dw/fc_invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
 [![version](https://img.shields.io/npm/v/fc_invite?color=red&label=Version&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
-[![stars](https://img.shields.io/github/stars/FERZAH/fc_invite?color=yellow&logo=github&style=for-the-badge)](https://github.com/FERZAH/fc_invite)
 
 ## FC Invite
 
