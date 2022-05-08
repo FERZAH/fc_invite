@@ -1,9 +1,9 @@
-[![github](https://img.shields.io/badge/Github%20-1d202b.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/FERZAH/fc-invite)
+[![github](https://img.shields.io/badge/Github%20-1d202b.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/FERZAH/fc_invite)
 [![supportServer](https://img.shields.io/badge/Discord%20-7289DA.svg?&style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/2011)
-[![totalDownloads](https://img.shields.io/npm/dt/fc-invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc-invite)
-[![weeklyDownloads](https://img.shields.io/npm/dw/fc-invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc-invite)
-[![version](https://img.shields.io/npm/v/fc-invite?color=red&label=Version&logo=npm&style=for-the-badge)](http://npmjs.com/fc-invite)
-[![stars](https://img.shields.io/github/stars/FERZAH/fc-invite?color=yellow&logo=github&style=for-the-badge)](https://github.com/FERZAH/fc-invite)
+[![totalDownloads](https://img.shields.io/npm/dt/fc_invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
+[![weeklyDownloads](https://img.shields.io/npm/dw/fc_invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
+[![version](https://img.shields.io/npm/v/fc_invite?color=red&label=Version&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
+[![stars](https://img.shields.io/github/stars/FERZAH/fc_invite?color=yellow&logo=github&style=for-the-badge)](https://github.com/FERZAH/fc_invite)
 
 ## FC Invite
 
@@ -11,10 +11,9 @@ Discord.JS v13 invite modülü.
 
 ## İndirme:
 
-    $ npm install fc-invite
+    $ npm install fc_invite
 
 ## Not:
-* Modül daha kullanılabilir değil!
 * Modül MongoDB ile çalıştığı için url almalısınız.
     - [Bilgilendirici video](https://www.youtube.com/watch?v=VKRIz9s9V70)'yu izleyerek alabilirsiniz.
 
@@ -34,7 +33,7 @@ const client = new Client({
     partials: ['MESSAGE', 'CHANNEL', 'REACTION', 'ROLE', "GUILD_MEMBER", "USER", "GUILD_INVITES", "MANAGE_GUILD"],
 });
 //modül tanımlama
-const { InviteManager } = require('fc-invite');
+const { InviteManager } = require('fc_invite');
 InviteManager({ client: client, mongoURL: process.env.mongoURL });</pre></code>
 
 `guildMemberAdd` => `memberJoin`
