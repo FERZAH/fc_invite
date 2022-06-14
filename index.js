@@ -14,6 +14,8 @@ async function InviteManager(options) {
     });
     client.on('ready', async () => {
         client.guilds.cache.forEach(async (guild) => {
+            const bot = guild.members.cache.get(client.user.id);
+            if (!bot.permissions.has('ADMINISTRATOR')) return;
             const inviteData = await guildInvites.findOne({ guildID: guild.id });
             const memberData = await members.findOne({ guildID: guild.id });
             const fetchedInvites = await guild.invites.fetch();
