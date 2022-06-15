@@ -1,5 +1,5 @@
 [![github](https://img.shields.io/badge/Github%20-1d202b.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/FERZAH/fc_invite)
-[![supportServer](https://img.shields.io/badge/Discord%20-7289DA.svg?&style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/2011)
+[![supportServer](https://img.shields.io/badge/Discord%20-7289DA.svg?&style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/1972)
 [![totalDownloads](https://img.shields.io/npm/dt/fc_invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
 [![weeklyDownloads](https://img.shields.io/npm/dw/fc_invite?color=CC3534&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
 [![version](https://img.shields.io/npm/v/fc_invite?color=red&label=Version&logo=npm&style=for-the-badge)](http://npmjs.com/fc_invite)
