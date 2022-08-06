@@ -36,7 +36,7 @@ const { InviteManager } = require('fc_invite');
 InviteManager({ client: client, mongoURL: process.env.mongoURL });</pre></code>
 
 ## v14 Client ve Intents:
-<pre><code>const { Client, Intents } = require('discord.js');
+<pre><code>const { Client, GatewayIntentBits, Partials } = require('discord.js');
 const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMembers,
     GatewayIntentBits.GuildMessageReactions, GatewayIntentBits.GuildPresences, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildInvites],
