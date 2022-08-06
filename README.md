@@ -24,12 +24,23 @@ Discord.JS v13 & v14 invite modülü.
 
 `invite` -> Daveti verir. [Invite]
 
-## Client ve Intents:
+## v13 Client ve Intents:
 <pre><code>const { Client, Intents } = require('discord.js');
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILDS,
     Intents.FLAGS.GUILD_MESSAGE_REACTIONS, Intents.FLAGS.GUILD_PRESENCES, Intents.FLAGS.GUILD_VOICE_STATES, Intents.FLAGS.GUILD_INVITES],
     partials: ['MESSAGE', 'CHANNEL', 'REACTION', 'ROLE', "GUILD_MEMBER", "USER", "GUILD_INVITES", "MANAGE_GUILD"],
+});
+//modül tanımlama
+const { InviteManager } = require('fc_invite');
+InviteManager({ client: client, mongoURL: process.env.mongoURL });</pre></code>
+
+## v14 Client ve Intents:
+<pre><code>const { Client, Intents } = require('discord.js');
+const client = new Client({
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMembers,
+    GatewayIntentBits.GuildMessageReactions, GatewayIntentBits.GuildPresences, GatewayIntentBits.GuildVoiceStates, GatewayIntentBits.GuildInvites],
+    partials: [Partials.Message, Partials.Channel, Partials.Reaction, Partials.Role, Partials.GuildMember, Partials.User, Partials.GuildInvites, Partials.ManageGuild],
 });
 //modül tanımlama
 const { InviteManager } = require('fc_invite');
