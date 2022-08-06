@@ -6,7 +6,7 @@
 
 ## FC Invite
 
-Discord.JS v13 invite modülü.
+Discord.JS v13 & v14 invite modülü.
 
 ## İndirme:
 
