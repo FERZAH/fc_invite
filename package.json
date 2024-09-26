@@ -1,6 +1,6 @@
 {
   "name": "fc_invite",
-  "version": "1.0.2",
+  "version": "3.0.0",
   "description": "MongoDB ile çalışan işinizi kolaylaştırıcak bir v13 discord invite modülü.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "bot",
     "v13"
   ],
-  "author": "ferzah35 <onurekincii35@outlook.com>",
+  "author": "FERZAH <onurekincii35@outlook.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FERZAH/fc_invite/issues"
