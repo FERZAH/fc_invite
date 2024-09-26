@@ -1,7 +1,7 @@
 {
   "name": "fc_invite",
-  "version": "3.0.0",
-  "description": "MongoDB ile çalışan işinizi kolaylaştırıcak bir v13 discord invite modülü.",
+  "version": "3.0.1",
+  "description": "MongoDB ile çalışan işinizi kolaylaştırıcak bir v13/v14 discord invite modülü.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/FERZAH/fc_invite.git"
   },
   "dependencies": {
-    "mongoose": "^6.3.2"
+    "mongoose": "^8.6.3"
   },
   "keywords": [
     "invite",
